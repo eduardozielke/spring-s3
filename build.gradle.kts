@@ -17,7 +17,11 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	implementation("org.springdoc:springdoc-openapi-ui:1.6.15")
 	// https://mvnrepository.com/artifact/org.projectlombok/lombok
-	compileOnly("org.projectlombok:lombok:1.18.26")
+	compileOnly("org.projectlombok:lombok:1.18.24")
+	annotationProcessor("org.projectlombok:lombok:1.18.24")
+
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok-mapstruct-binding
+	//	implementation("org.projectlombok:lombok-mapstruct-binding:0.1.0")
 }
 
 tasks.withType<Test> {
