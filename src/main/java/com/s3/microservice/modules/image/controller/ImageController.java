@@ -21,8 +21,8 @@ public class ImageController {
 
     @GetMapping
     public ResponseEntity<String> getEv() {
-        String env = service.getEnv();
-        return new ResponseEntity<>(env, HttpStatus.OK);
+//        String env = service.getEnv();
+        return new ResponseEntity<>("teste", HttpStatus.OK);
     }
 
     @GetMapping("/illegal")

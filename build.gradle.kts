@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.s3"
-version = "0.0.1-SNAPSHOT"
+version = "1.0.0"
 java.sourceCompatibility = JavaVersion.VERSION_17
 
 repositories {
@@ -20,8 +20,17 @@ dependencies {
 	compileOnly("org.projectlombok:lombok:1.18.24")
 	annotationProcessor("org.projectlombok:lombok:1.18.24")
 
+//	implementation(platform("com.amazonaws:aws-java-sdk-bom:2.20.56"))
+	implementation("software.amazon.awssdk:s3:2.20.26")
+
 	// https://mvnrepository.com/artifact/org.projectlombok/lombok-mapstruct-binding
 	//	implementation("org.projectlombok:lombok-mapstruct-binding:0.1.0")
+}
+
+tasks {
+	withType<org.springframework.boot.gradle.tasks.bundling.BootJar> {
+		enabled = true
+	}
 }
 
 tasks.withType<Test> {
