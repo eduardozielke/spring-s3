@@ -1,10 +1,9 @@
-amazon: 'variavel-amazon'
 swagger:
   request-url: 'localhost'
 contact:
   name: 'Eduardo Zielke'
   url: 'https://www.linkedin.com/in/eduardozielke/'
-  email: "zielkeeduardo@gmail.com"
+  email: ""
 aws:
   region: sa-east-1
   s3:
