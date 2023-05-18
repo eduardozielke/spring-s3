@@ -1,4 +1,4 @@
-package com.s3.microservice.exception;
+package com.spring.s3.exception;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;

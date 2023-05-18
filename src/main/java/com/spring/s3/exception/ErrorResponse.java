@@ -1,4 +1,4 @@
-package com.s3.microservice.exception;
+package com.spring.s3.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

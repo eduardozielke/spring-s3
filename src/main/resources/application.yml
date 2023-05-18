@@ -7,6 +7,10 @@ contact:
   email: "zielkeeduardo@gmail.com"
 aws:
   region: sa-east-1
+  s3:
+    buckets:
+      customer: zielkebucket
+
 
 # Logging configurations
 #spring:

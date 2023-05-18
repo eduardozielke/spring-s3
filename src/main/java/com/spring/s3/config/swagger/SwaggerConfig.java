@@ -1,4 +1,4 @@
-package com.s3.microservice.config.swagger;
+package com.spring.s3.config.swagger;
 
 
 import org.springframework.context.annotation.Configuration;

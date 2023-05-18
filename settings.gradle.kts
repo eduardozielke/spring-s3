@@ -1,1 +1,1 @@
-rootProject.name = "microservice-s3"
+rootProject.name = "spring-s3"

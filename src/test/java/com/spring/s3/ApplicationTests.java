@@ -1,4 +1,4 @@
-package com.s3.microservice;
+package com.spring.s3;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

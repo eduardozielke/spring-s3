@@ -1,4 +1,4 @@
-package com.s3.microservice.config.s3;
+package com.spring.s3.modules.s3;
 
 import org.springframework.stereotype.Service;
 import software.amazon.awssdk.core.ResponseInputStream;
